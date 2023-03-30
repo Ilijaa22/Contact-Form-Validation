@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d1d6cc37c8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Form Design</title>
+</head>
+<body>
+    <div class="contact">
+        <div class="color"></div>
+        <div class="container">
+            <div class="text">
+                <h3>Contact Us</h3>
+                <p>Please let us know your query.</p>
+            </div>
+            <form action="#" id="form" novalidate="novalidate" class="m-4"">
+                <div class="form-group py-2 field">
+                  <label for="name">Name <span><i class="fa-solid fa-user"></i></span></label>
+                  <input type="text" name="name" class="form-control input" id="name" placeholder="Your Name">
+                  <div class="error"></div>
+                </div>
+                <div class="form-group py-2 field">
+                    <label for="email">Email<span><i class="fa-solid fa-envelope"></i></span></label>
+                    <input type="email" name="email" class="form-control input" id="email" placeholder="name.lastname@gmail.com">
+                    <div class="error"></div>
+                </div>
+                <div class="form-group py-2 field">
+                    <label for="subject">Subject <span><i class="fa-solid fa-reply"></i></span></label>
+                    <input type="text" name="subject" class="form-control input" id="subject" placeholder="The Reason">
+                    <div class="error"></div>
+                </div>
+                <div class="form-group py-2 field">
+                    <label for="area">Message <span><i class="fa-solid fa-message"></i></span></label>
+                    <textarea class="form-control input" name="area" id="area" rows="4" placeholder="Explain your issue please" style="resize: none;"></textarea>
+                    <div class="error"></div>
+                </div>
+                <button type="submit" class="btn btn-default my-3" id="btn">Submit</button>
+              </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
